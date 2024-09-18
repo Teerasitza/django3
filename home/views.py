@@ -6,3 +6,6 @@ def home(request):
 
 def about(request):
     return HttpResponse("เกี่ยวกับเรา")   
+
+def contact(request):
+    return HttpResponse("ติดต่อเรา")   
